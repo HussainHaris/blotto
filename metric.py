@@ -1,10 +1,16 @@
 import round
 import csv
 
+# Running this allows you to play against
+# the current winning strategy and all
+# past strategies are evaluated against as well
+
 allArmies = []
 
 newArmy = []
 
+# Tracks all previous winning strategies
+# in armies.csv
 with open("armies.csv") as file:
     for i, line in enumerate(file):
         parsed_list = line.split()[0].split(",")

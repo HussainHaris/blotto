@@ -1,9 +1,15 @@
+# Defines the backend for a round Blotto where 2
+# strategies are compared
 class round:
 
+    # Initialize a blotto round with two
+    # armies (as lists)
     def __init__(self, armyOne, armyTwo):
         self.armyOne = armyOne
         self.armyTwo = armyTwo
 
+    # This function allows for
+    # evaluation/round of two strategies when called
     def evaluate(self):
         score_one = 0
         score_two = 0

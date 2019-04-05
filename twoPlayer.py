@@ -1,6 +1,8 @@
 import round
 import csv
 
+# Colonel Blotto for two players via commandline
+# only compares two strategies
 print("Welcome to Colonel Blotto")
 
 list_one = [0]
